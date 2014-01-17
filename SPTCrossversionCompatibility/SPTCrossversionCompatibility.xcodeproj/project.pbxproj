@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51396A9E188994F300735A5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51396A9D188994F300735A5C /* Foundation.framework */; };
+		51396AA3188994F300735A5C /* SPTCrossversionCompatibility.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 51396AA2188994F300735A5C /* SPTCrossversionCompatibility.h */; };
+		51396AA5188994F300735A5C /* SPTCrossversionCompatibility.m in Sources */ = {isa = PBXBuildFile; fileRef = 51396AA4188994F300735A5C /* SPTCrossversionCompatibility.m */; };
+		51396AAC188994F300735A5C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51396AAB188994F300735A5C /* XCTest.framework */; };
+		51396AAD188994F300735A5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51396A9D188994F300735A5C /* Foundation.framework */; };
+		51396AAF188994F300735A5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51396AAE188994F300735A5C /* UIKit.framework */; };
+		51396AB2188994F300735A5C /* libSPTCrossversionCompatibility.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51396A9A188994F300735A5C /* libSPTCrossversionCompatibility.a */; };
+		51396AB8188994F300735A5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51396AB6188994F300735A5C /* InfoPlist.strings */; };
+		51396ABA188994F300735A5C /* SPTCrossversionCompatibilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51396AB9188994F300735A5C /* SPTCrossversionCompatibilityTests.m */; };
+		51396AC61889950E00735A5C /* StatusBarCompatibilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 51396AC51889950E00735A5C /* StatusBarCompatibilityManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51396AB0188994F300735A5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51396A92188994F300735A5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51396A99188994F300735A5C;
+			remoteInfo = SPTCrossversionCompatibility;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		51396A98188994F300735A5C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				51396AA3188994F300735A5C /* SPTCrossversionCompatibility.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		51396A9A188994F300735A5C /* libSPTCrossversionCompatibility.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSPTCrossversionCompatibility.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		51396A9D188994F300735A5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		51396AA1188994F300735A5C /* SPTCrossversionCompatibility-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SPTCrossversionCompatibility-Prefix.pch"; sourceTree = "<group>"; };
+		51396AA2188994F300735A5C /* SPTCrossversionCompatibility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPTCrossversionCompatibility.h; sourceTree = "<group>"; };
+		51396AA4188994F300735A5C /* SPTCrossversionCompatibility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPTCrossversionCompatibility.m; sourceTree = "<group>"; };
+		51396AAA188994F300735A5C /* SPTCrossversionCompatibilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPTCrossversionCompatibilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51396AAB188994F300735A5C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		51396AAE188994F300735A5C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		51396AB5188994F300735A5C /* SPTCrossversionCompatibilityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SPTCrossversionCompatibilityTests-Info.plist"; sourceTree = "<group>"; };
+		51396AB7188994F300735A5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		51396AB9188994F300735A5C /* SPTCrossversionCompatibilityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPTCrossversionCompatibilityTests.m; sourceTree = "<group>"; };
+		51396AC41889950E00735A5C /* StatusBarCompatibilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusBarCompatibilityManager.h; sourceTree = "<group>"; };
+		51396AC51889950E00735A5C /* StatusBarCompatibilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusBarCompatibilityManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51396A97188994F300735A5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51396A9E188994F300735A5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51396AA7188994F300735A5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51396AB2188994F300735A5C /* libSPTCrossversionCompatibility.a in Frameworks */,
+				51396AAC188994F300735A5C /* XCTest.framework in Frameworks */,
+				51396AAF188994F300735A5C /* UIKit.framework in Frameworks */,
+				51396AAD188994F300735A5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51396A91188994F300735A5C = {
+			isa = PBXGroup;
+			children = (
+				51396A9F188994F300735A5C /* SPTCrossversionCompatibility */,
+				51396AB3188994F300735A5C /* SPTCrossversionCompatibilityTests */,
+				51396A9C188994F300735A5C /* Frameworks */,
+				51396A9B188994F300735A5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51396A9B188994F300735A5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51396A9A188994F300735A5C /* libSPTCrossversionCompatibility.a */,
+				51396AAA188994F300735A5C /* SPTCrossversionCompatibilityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51396A9C188994F300735A5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51396A9D188994F300735A5C /* Foundation.framework */,
+				51396AAB188994F300735A5C /* XCTest.framework */,
+				51396AAE188994F300735A5C /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51396A9F188994F300735A5C /* SPTCrossversionCompatibility */ = {
+			isa = PBXGroup;
+			children = (
+				51396AC3188994FF00735A5C /* StatusBar */,
+				51396AA2188994F300735A5C /* SPTCrossversionCompatibility.h */,
+				51396AA4188994F300735A5C /* SPTCrossversionCompatibility.m */,
+				51396AA0188994F300735A5C /* Supporting Files */,
+			);
+			path = SPTCrossversionCompatibility;
+			sourceTree = "<group>";
+		};
+		51396AA0188994F300735A5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51396AA1188994F300735A5C /* SPTCrossversionCompatibility-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51396AB3188994F300735A5C /* SPTCrossversionCompatibilityTests */ = {
+			isa = PBXGroup;
+			children = (
+				51396AB9188994F300735A5C /* SPTCrossversionCompatibilityTests.m */,
+				51396AB4188994F300735A5C /* Supporting Files */,
+			);
+			path = SPTCrossversionCompatibilityTests;
+			sourceTree = "<group>";
+		};
+		51396AB4188994F300735A5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51396AB5188994F300735A5C /* SPTCrossversionCompatibilityTests-Info.plist */,
+				51396AB6188994F300735A5C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51396AC3188994FF00735A5C /* StatusBar */ = {
+			isa = PBXGroup;
+			children = (
+				51396AC41889950E00735A5C /* StatusBarCompatibilityManager.h */,
+				51396AC51889950E00735A5C /* StatusBarCompatibilityManager.m */,
+			);
+			name = StatusBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51396A99188994F300735A5C /* SPTCrossversionCompatibility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51396ABD188994F300735A5C /* Build configuration list for PBXNativeTarget "SPTCrossversionCompatibility" */;
+			buildPhases = (
+				51396A96188994F300735A5C /* Sources */,
+				51396A97188994F300735A5C /* Frameworks */,
+				51396A98188994F300735A5C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SPTCrossversionCompatibility;
+			productName = SPTCrossversionCompatibility;
+			productReference = 51396A9A188994F300735A5C /* libSPTCrossversionCompatibility.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		51396AA9188994F300735A5C /* SPTCrossversionCompatibilityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51396AC0188994F300735A5C /* Build configuration list for PBXNativeTarget "SPTCrossversionCompatibilityTests" */;
+			buildPhases = (
+				51396AA6188994F300735A5C /* Sources */,
+				51396AA7188994F300735A5C /* Frameworks */,
+				51396AA8188994F300735A5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51396AB1188994F300735A5C /* PBXTargetDependency */,
+			);
+			name = SPTCrossversionCompatibilityTests;
+			productName = SPTCrossversionCompatibilityTests;
+			productReference = 51396AAA188994F300735A5C /* SPTCrossversionCompatibilityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51396A92188994F300735A5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "SPOT Software";
+			};
+			buildConfigurationList = 51396A95188994F300735A5C /* Build configuration list for PBXProject "SPTCrossversionCompatibility" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 51396A91188994F300735A5C;
+			productRefGroup = 51396A9B188994F300735A5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51396A99188994F300735A5C /* SPTCrossversionCompatibility */,
+				51396AA9188994F300735A5C /* SPTCrossversionCompatibilityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51396AA8188994F300735A5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51396AB8188994F300735A5C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51396A96188994F300735A5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51396AA5188994F300735A5C /* SPTCrossversionCompatibility.m in Sources */,
+				51396AC61889950E00735A5C /* StatusBarCompatibilityManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51396AA6188994F300735A5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51396ABA188994F300735A5C /* SPTCrossversionCompatibilityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51396AB1188994F300735A5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51396A99188994F300735A5C /* SPTCrossversionCompatibility */;
+			targetProxy = 51396AB0188994F300735A5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		51396AB6188994F300735A5C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51396AB7188994F300735A5C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51396ABB188994F300735A5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		51396ABC188994F300735A5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51396ABE188994F300735A5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SPTCrossversionCompatibility.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SPTCrossversionCompatibility/SPTCrossversionCompatibility-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		51396ABF188994F300735A5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SPTCrossversionCompatibility.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SPTCrossversionCompatibility/SPTCrossversionCompatibility-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		51396AC1188994F300735A5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SPTCrossversionCompatibility/SPTCrossversionCompatibility-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SPTCrossversionCompatibilityTests/SPTCrossversionCompatibilityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		51396AC2188994F300735A5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SPTCrossversionCompatibility/SPTCrossversionCompatibility-Prefix.pch";
+				INFOPLIST_FILE = "SPTCrossversionCompatibilityTests/SPTCrossversionCompatibilityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51396A95188994F300735A5C /* Build configuration list for PBXProject "SPTCrossversionCompatibility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51396ABB188994F300735A5C /* Debug */,
+				51396ABC188994F300735A5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51396ABD188994F300735A5C /* Build configuration list for PBXNativeTarget "SPTCrossversionCompatibility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51396ABE188994F300735A5C /* Debug */,
+				51396ABF188994F300735A5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		51396AC0188994F300735A5C /* Build configuration list for PBXNativeTarget "SPTCrossversionCompatibilityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51396AC1188994F300735A5C /* Debug */,
+				51396AC2188994F300735A5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51396A92188994F300735A5C /* Project object */;
+}
