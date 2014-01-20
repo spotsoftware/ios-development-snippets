@@ -78,6 +78,14 @@
 
 #pragma mark -
 
+- (void)registerForStatusBarOrientationChangeNotifications:(id)subject usingSelector:(SEL)selector
+{
+    [[NSNotificationCenter defaultCenter] addObserver:subject
+                                             selector:selector
+                                                 name:UIApplicationDidChangeStatusBarOrientationNotification
+                                               object:nil];
+}
+
 /**
  *  Setup the status bar for the first time
  *

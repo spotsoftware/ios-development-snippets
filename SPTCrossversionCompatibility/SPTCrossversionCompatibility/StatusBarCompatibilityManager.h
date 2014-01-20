@@ -21,6 +21,7 @@
 
 #pragma mark -
 
+- (void)registerForStatusBarOrientationChangeNotifications:(id)subject usingSelector:(SEL)selector;
 - (void)setupStatusBarAppearanceForWindow:(UIWindow *)window;
 - (void)initializeStatusBarAppearanceForWindow:(UIWindow *)window;
 
