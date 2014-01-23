@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:UIComponentsUsageExample/UIComponentsUsageExample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UIComponents/UIComponents.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:SPTCrossversionCompatibility/SPTCrossversionCompatibility.xcodeproj">
    </FileRef>
 </Workspace>
