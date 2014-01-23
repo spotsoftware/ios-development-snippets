@@ -12,6 +12,10 @@ Each of those, a *XCode Repository* covers a specific area. It should be a libra
 
 ## Available snippets
 
+### UI Components
+
+* **SPTImagePickerController**: Custom image picker for both images and video.
+
 ### Compatibility
 
-* **StatusBar**: Provides compatibility between the iOS7 and the iOS6 status bars
+* **StatusBar**: Provides compatibility between the iOS7 and the iOS6 status bars.
